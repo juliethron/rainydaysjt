@@ -257,7 +257,7 @@ h2 {
 
 
 #hoved {
-    background-image: url("bilder/manonrock-fotor-20250523222510.png");
+    background-image: url("./bilder/manonrock-fotor-20250523222510.png");
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -372,7 +372,7 @@ h2 {
 }
 
 #banners .winter h3 {
-    color: white;
+    color: black;
     font-size: 35px;
     font-weight: 800;
     padding-left: 255px;
@@ -399,7 +399,7 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: left;
-    background-image: url("bilder/jenny-hill-Io2Zgb3_kdk-unsplash_resized.jpg");
+    background-image: url("./bilder/jenny-hill-Io2Zgb3_kdk-unsplash_resized(1).jpg");
     min-width: 470px;
     height: 50vh;
     background-size: cover;
@@ -409,7 +409,7 @@ h2 {
 
 
 #banners .outlet h3 {
-    color: white; 
+    color: black; 
     font-size: 45px;
     font-weight: 800;
     padding-right: 390px;
@@ -526,7 +526,7 @@ button .shop, .outletbtn {
 
 
 #b-items {
-    background-image: url("bilder/Component\ 18.png");
+    background-image: url("./bilder/Component2.jpg");
     background-size: cover;
     background-position: center;
     height: 100px;
@@ -962,8 +962,8 @@ button .shop, .outletbtn {
     align-items: center;
     height: 30px;
     width: 85px;
-    background-color: #999;
-    color: #333;
+    background-color: #4b4b4b;
+    color: white;
     font-size: 18px;
     font-style: italic;
     font-weight: 600;
