@@ -15,4 +15,7 @@ This is my attempt at doing an HTML and CSS version of a site I designed in Figm
 
 
 
+....
+My index page got lost for some reason and now it redirects to my coming soon page and I dont know why. Sadly I  did not have time to fix it since it happened when I was doing some minor edits on my code here on github. It also removed my banners even though they are linked. I am soooooo sad and dissappointed that this happened at the very last minute, but I hope you can see that the code for everything is there, its just github that would not cooperate with me on this occation :(
+
 
