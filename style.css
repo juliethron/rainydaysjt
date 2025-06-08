@@ -256,7 +256,7 @@ h2 {
 }
 
 
-#hoved {
+.hoved {
     background-image: url("./bilder/manonrock-fotor-20250523222510.jpg");
     background-size: cover;
     background-position: center;
@@ -525,7 +525,7 @@ button .shop, .outletbtn {
 
 
 
-#b-items {
+.b-items {
     background-image: url("bilder/Component2.jpg");
     background-size: cover;
     background-position: center;
