@@ -11,9 +11,10 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <img src="bilder/logo1.jpg"  alt="Logo">
+            <img src="./bilder/logo1.jpg"  alt="Logo">
         </div>
             <ul class="nav-links">
+            <li>
                 <div class="dropdown">
                     <button class="dropdownbtn">Shop</button>
                     <div class="dropdown-menu">
@@ -26,11 +27,13 @@
                     </ul>
                 </div>
                 </div>
+            </li> 
                 <li><a href="comingsoon.html">Outlet</a></li>
                 </ul>
                 <div class="search-bar">
+                    <label for="searchbr">searchbar</label>
                     <input type="text" placeholder="Search">
-                    <button type="submit">
+                        <button type="submit" aria-label="search">
                         <i class="fa fa-search"></i>
                     </button>
                 </div>
@@ -41,7 +44,7 @@
             </ul>
 </nav>
 
-        <section id="b-items"> </section>
+        <div id="b-items"> </div>
 
 
 
@@ -60,12 +63,13 @@
                 <tbody>
                     <tr>
                         <td>
-                            <img src="bilder/RainyDays_Jacket2.jpg" alt="">
+                            <img src="./bilder/RainyDays_Jacket2.jpg" alt="">
                             <td><p><strong>TrailGuard</strong></p> 
                             <p><strong>Women's</strong></p>
                             <p><strong>Jacket</strong></p></td>
                         </td>
                         <td>£65.00</td>
+                        <label for="number">Quantity</label>
                         <td><input type="number" value="1"></td>
                         <td>£65.00</td>
                     </tr>
@@ -78,6 +82,7 @@
             <div id="discount">
                 <h4>Discount</h4>
                 <div>
+                    <label for="discount">Discount Code</label>
                     <input type="text" placeholder="Discount Code">
                     <button class="normal">Apply</button>
                 </div>
@@ -106,7 +111,7 @@
 
                 <footer class="section-p1">
                 <div class="col">
-                    <img class="logo" src="bilder/RainyDays_Logo_resized.png" alt="">
+                    <img class="logo" src="./bilder/RainyDays_Logo_resized.png" alt="">
                 </div>
 
 
