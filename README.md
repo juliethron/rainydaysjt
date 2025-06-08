@@ -13,6 +13,6 @@ This is my attempt at doing an HTML and CSS version of a site I designed in Figm
 - Coming soon page
 
 
-## Installation
+
 
 
