@@ -148,7 +148,8 @@
 }
 
 
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
     display: block;
 }
 
@@ -167,11 +168,14 @@
     flex: 1;
     border: none;
     background: transparent;
-    outline: none;
     padding: 8px;
     font-style: italic;
     font-size: 1em;
     box-shadow: none;
+}
+
+.search-bar input:focus {
+    outline: 3px solid #54b0e6;
 }
 
 .search-bar button {
@@ -960,7 +964,7 @@ button .shop, .outletbtn {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
+    height: 44px;
     width: 85px;
     background-color: #999;
     color: #333;
@@ -1708,4 +1712,10 @@ footer p {
     color: black;
     font-style: italic;
     font-weight: 600;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
 }
