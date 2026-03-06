@@ -451,27 +451,23 @@ h2 {
 
 #newsletter .form {
     display: flex;
-    align-items: stretch;
+    align-items: center;
     width: 40%;
 }
 
 #newsletter input {
-    height: 40px;
+    height: 38px;
     padding: 0 12px;
-    font-size: 14px;
-    width: 100%;
     border: none;
     border-radius: 6px 0 0 6px;
 }
 
 #newsletter button {
-    height: 40px;
+    height: 38px;
     padding: 0 18px;
-    background: white;
     border: none;
+    background: white;
     border-radius: 0 6px 6px 0;
-    font-weight: 600;
-    cursor: pointer;
 }
 
 #newsletter button:hover {
