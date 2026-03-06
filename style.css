@@ -158,18 +158,18 @@ html {
 .search-bar {
     display: flex;
     align-items: center;
-    background: #e6e6e6;
+    background: #ddd;
     border-radius: 8px;
-    padding: 5px 10px;
-    width: 220px;
+    padding: 4px 10px;
+    width: 195px;
 }
 
 .search-bar input {
+    flex: 1;
     border: none;
     background: transparent;
-    flex: 1;
     font-size: 14px;
-    outline: none;
+    padding: 4px 6px;
 }
 
 .search-bar button {
