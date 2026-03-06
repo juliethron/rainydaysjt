@@ -430,15 +430,8 @@ h2 {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-repeat: no-repeat;
-    background-position: 20% 30%;
-    background: linear-gradient(
-        90deg,
-        #b7c6da,
-        #a9bcd3
-    );
-    height: 13vh;
-    padding: 0 70px;
+    background: linear-gradient(90deg, #b7c6da, #a9bcd3);
+    padding: 20px 70px;
 }
 
 #newsletter h3 {
