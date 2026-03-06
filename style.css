@@ -1725,38 +1725,108 @@ button:hover {
 }
 
 
+
 @media (max-width: 768px) {
 
-  nav {
+  .navbar {
     flex-direction: column;
+    align-items: center;
     gap: 10px;
-    text-align: center;
+    padding: 12px;
   }
 
-  nav ul {
-    flex-wrap: wrap;
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .navicons {
+    justify-content: center;
+    gap: 15px;
+    margin-top: 8px;
+  }
+
+  .search-bar {
+    width: 100%;
+    display: flex;
     justify-content: center;
   }
 
-  .hero {
+  .search-bar input {
+    width: 70%;
+  }
+
+
+  #hoved {
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  #hoved h1 {
+    font-size: 32px;
+  }
+
+
+  .bestsellers {
+    display: grid;
     grid-template-columns: 1fr;
+    gap: 25px;
     text-align: center;
   }
 
-  .products,
-  .product-grid {
-    grid-template-columns: 1fr;
-  }
-
-  img {
-    max-width: 100%;
+  .bestsellers img {
+    width: 100%;
     height: auto;
   }
 
-  .cta,
-  .buttons {
+
+  #newsletter {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .form {
     flex-direction: column;
     gap: 10px;
+  }
+
+  .form input {
+    width: 100%;
+  }
+
+  .form button {
+    width: 100%;
+  }
+
+
+  #banners {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .banner {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+
+  #bottomsection {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .smicons {
+    justify-content: center;
   }
 
 }
