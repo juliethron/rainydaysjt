@@ -325,11 +325,6 @@ h2 {
     text-align: center;
 }
 
-#featured .explorers-jacket {
-    max-width: 250px;
-    text-align: center;
-}
-
 
 .section-p2 {
     padding: 85px 83px;
@@ -377,6 +372,8 @@ h2 {
     position: absolute;
     inset: 0;
     background: rgba(0,0,0,0.25);
+    pointer-events: none;
+
 }
 
 #banners .banner h3,
@@ -437,10 +434,10 @@ h2 {
         90deg,
         #b7c6da,
         #a9bcd3
+    );
     height: 13vh;
     padding: 0 70px;
 }
-
 
 #newsletter h3 {
     font-size: 22px;
@@ -513,7 +510,7 @@ h2 {
 }
 
 #bottomsection img {
-    width: 15opx;
+    width: 150px;
     height: 150px;
     padding-bottom: 20px;
 }
