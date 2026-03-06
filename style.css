@@ -261,7 +261,7 @@ h2 {
 
 
 #hoved {
-    background-image: url("./bilder/manonrock-fotor-20250523222510.jpg");
+    background-image: url("bilder/manonrock-fotor-20250523222510.jpg");    
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -272,6 +272,7 @@ h2 {
     justify-content: center;
     z-index: 1;
     position: relative;
+    background: red;
 }
 
 
