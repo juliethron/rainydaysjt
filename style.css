@@ -1718,6 +1718,17 @@ button:hover {
     box-shadow: 0 10px 18px rgba(0,0,0,0.15);
 }
 
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     transition: none !important;
@@ -1779,6 +1790,28 @@ button:hover {
     margin: 5px 0 10px 0;
     padding: 0;
   }
+
+  .menu-icon {
+  display: block;
+}
+
+.nav-links {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  gap: 10px;
+}
+
+#menu-toggle:checked + .menu-icon + .nav-links {
+  display: flex;
+}
+
+  .nav-links.active {
+    display: flex;
+  }
+
+}
 
 
 
