@@ -255,19 +255,22 @@ h2 {
 
 
 #hoved {
-    background-image: url("bilder/manonrock-fotor-20250523222510.png");    
+    background-image: url("bilder/manonrock-fotor-20250523222510.png");
     background-size: cover;
     background-position: center;
-    height: 300px;
-    padding: 0 70px;
+    height: 380px;
+
     display: flex;
     flex-direction: column;
+
     align-items: flex-start;
     justify-content: center;
-    z-index: 1;
+
+    text-align: left;          
+    padding-left: 70px;
+
     position: relative;
 }
-
 
 #hoved h1 {
     color: white;
@@ -285,6 +288,13 @@ h2 {
         rgba(0,0,0,0.35),
         rgba(0,0,0,0.05)
     );
+}
+
+#hoved h1,
+#hoved h2,
+.shopbtn {
+    position: relative;
+    z-index: 2;
 }
 
 .shopbtn {
@@ -313,9 +323,15 @@ h2 {
 .bestsellers {
     display: flex;
     justify-content: center;
-    gap: 165px;
+    align-items: flex-start;
+    gap: 120px;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 40px;
+}
+
+.bestsellers div {
+    width: 220px;
+    text-align: center;
 }
 
 #featured .summit-grey{
