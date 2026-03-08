@@ -1752,9 +1752,9 @@ button:hover {
 }
 
 
+/* MOBILE LAYOUT */
 
 @media (max-width: 768px) {
-
 
   .navbar {
     flex-direction: column;
@@ -1773,9 +1773,11 @@ button:hover {
   }
 
   .nav-links {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    gap: 10px;
     margin: 0;
     font-size: 16px;
   }
@@ -1788,6 +1790,14 @@ button:hover {
     margin-right: 0;
     padding: 6px 12px;
     font-size: 16px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex;
   }
 
   .search-bar {
@@ -1807,29 +1817,6 @@ button:hover {
     padding: 0;
   }
 
-  .menu-icon {
-  display: block;
-}
-
-.nav-links {
-  display: none;
-  flex-direction: column;
-  width: 100%;
-  text-align: center;
-  gap: 10px;
-}
-
-#menu-toggle:checked + .menu-icon + .nav-links {
-  display: flex;
-}
-
-  .nav-links.active {
-    display: flex;
-  }
-
-}
-
-
 
   #hoved {
     text-align: center;
@@ -1847,7 +1834,6 @@ button:hover {
   }
 
 
-
   .bestsellers {
     display: grid;
     grid-template-columns: 1fr;
@@ -1859,7 +1845,6 @@ button:hover {
     width: 100%;
     height: auto;
   }
-
 
 
   #newsletter {
@@ -1883,8 +1868,6 @@ button:hover {
     width: 100%;
   }
 
-
-
   #banners {
     display: grid;
     grid-template-columns: 1fr;
@@ -1902,8 +1885,6 @@ button:hover {
     font-size: 26px;
   }
 
-
-
   #bottomsection {
     text-align: center;
     padding: 30px 20px;
@@ -1912,8 +1893,6 @@ button:hover {
   #bottomsection h4 {
     font-size: 15px;
   }
-
-
 
   footer {
     display: grid;
